@@ -1,0 +1,45 @@
+{
+  "name": "atlas-web-identity",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@heroui/react": "^2.8.1",
+    "@internationalized/date": "^3.8.2",
+    "@nivo/bar": "^0.99.0",
+    "@nivo/core": "^0.99.0",
+    "@nivo/tree": "^0.99.0",
+    "@types/dagre": "^0.7.53",
+    "@types/js-yaml": "^4.0.9",
+    "@xyflow/react": "^12.8.2",
+    "ag-grid-community": "^35.0.0",
+    "ag-grid-react": "^35.0.0",
+    "dagre": "^0.8.5",
+    "framer-motion": "^12.23.9",
+    "js-yaml": "^4.1.0",
+    "next": "^16.1.1",
+    "next-themes": "^0.4.6",
+    "atlas-shared-web": "file:../atlas-shared-web",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.61.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
